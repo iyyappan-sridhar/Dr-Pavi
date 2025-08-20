@@ -1,0 +1,896 @@
+  @media (max-width:480px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      
+      top: 45px;
+      text-transform: capitalize;
+      font-size:35px;
+      left: 10px;
+      overflow-wrap: break-word;
+    z-index: 1;
+    max-width: 90%;
+    word-wrap: break-word;
+    }
+    p{
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 18px;
+      position: relative;
+      top: 30px;
+      left: 10px;
+      align-items: center;overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+
+  }
+  .button {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, skyblue,whitesmoke);
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    top: 60px;
+    text-decoration: none;
+    left: 90px;
+    
+  }
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .profile {
+  top: 20px;
+  right: 20%;
+  left: 20%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white ;
+  position: relative;
+
+}
+h6 {
+  
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* clean font */
+  font-size: 16px;           /* readable size */
+  line-height: 1.6;          /* spacing between lines */
+  color: #333333;            /* soft dark color, easy on eyes */
+  margin: 0 0 16px 0;        /* bottom spacing */
+  letter-spacing: 0.5px;     /* subtle spacing */
+  text-align: justify;       /* neat alignment */
+  left: 4%;
+  right:4%;
+  position: relative;
+  top: 70px;
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+ }
+ /* glass card */
+ .glass-card {
+    align-items: center;
+    position: relative;
+    left:18px;
+    right:10px;
+    top: 17px;
+    bottom: -20px;
+    background-color: rgb(246, 249, 249);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite ease-in-out;
+    background: none;
+}
+.glass-card h4 {
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.glass-card .subtitle {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.container { 
+    left: 10px;
+  max-width:400px; 
+  margin: 20px auto; 
+  background: none; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #aaa; 
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+  overflow: auto;
+  font-size: 18px;
+  box-sizing: 70%;
+  
+}
+
+input, select, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  font-size: small;
+  
+}
+
+textarea { height: 20px; }
+
+button { 
+  padding: 10px; 
+  margin: 10px; 
+  border: none; 
+  background:none; 
+  color:black; 
+  border-radius: 1%; 
+  cursor: pointer; 
+  border: white;
+}
+
+button:hover { 
+  background: none; 
+}
+
+.review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid bla;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: black;
+    overflow: scroll;
+    left: 10px;
+  }
+  .review-form button {
+    width: 90%;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    position:inherit;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    color:black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  footer {
+  top: 250px;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, green,red, );  
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  overflow: visible;
+ } 
+ 
+
+}
+
+                /* responsive 768  */
+
+   @media screen and (min-width:481px) and ( max-width:768px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      left:35px;
+      top: 60px;
+      text-transform: capitalize;
+      font-size:60px;
+      overflow-wrap: break-word;
+      z-index: 1;
+      max-width: 90%;
+      word-wrap: break-word;
+    }
+    p{
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 30px;
+      position: relative;
+      top: 70px;
+      left: 10px;
+      align-items: center;overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+
+  }
+  .button {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, skyblue,whitesmoke);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    top: 100px;
+    text-decoration: none;
+    left: 120px;
+    right: 100px;
+    
+  }
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .profile {
+  top: 20px;
+  right: 150px;
+  left: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white ;
+  position: relative;
+
+}
+h6 {
+  
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* clean font */
+  font-size: 16px;           /* readable size */
+  line-height: 1.6;          /* spacing between lines */
+  color: #333333;            /* soft dark color, easy on eyes */
+  margin: 0 0 16px 0;        /* bottom spacing */
+  letter-spacing: 0.5px;     /* subtle spacing */
+  text-align: justify;       /* neat alignment */
+  left: 4%;
+  right:4%;
+  position: relative;
+  top: 70px;
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+ }
+ /* glass card */
+ .glass-card {
+    align-items: center;
+    position: relative;
+    left:18px;
+    right:10px;
+    top: 70px;
+    bottom: -20px;
+    background-color: rgb(246, 249, 249);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite ease-in-out;
+    background: none;
+}
+.glass-card h4 {
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.glass-card .subtitle {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* booking form */
+.container { 
+    left: 8px;
+    max-width:400px; 
+  margin: 20px auto; 
+  background: none; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px #aaa; 
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+  overflow: auto;
+  font-size: 18px;
+  box-sizing: 70%;
+  top: 50px; 
+  position: relative;  
+}
+
+input, select, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  font-size: small;
+  background: none;
+  color: black
+
+  
+}
+
+textarea { height: 30px; }
+
+.form-btn { 
+  position: relative;
+  align-items: center;
+ 
+  
+}
+button {
+  color: #333333;
+  background: none;
+  font-size: 20px;
+}
+
+button:hover { 
+  background: none; 
+}
+
+
+.review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid bla;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: black;
+    overflow: scroll;
+    left: 10px;
+  }
+  .review-form button {
+    width: 90%;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    position:inherit;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    color:black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  footer {
+  top: 150px;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, green,red, );  
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  overflow: visible;
+ }
+   }
+
+
+ /* 769 to 1200 screen size */
+
+  @media screen and (min-width:769px) and ( max-width:1200px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      left:50px;
+      top: 80px;
+      text-transform: capitalize;
+      font-size:90px;
+      overflow-wrap: break-word;
+      z-index: 1;
+      max-width: 90%;
+      word-wrap: break-word;
+    }
+    h2{
+      color:#181313;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 40px;
+      position: relative;
+      top:100px;
+      left:30px;
+      align-items: center;overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+
+    }
+    p{
+      color:#181313;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 40px;
+      position: relative;
+      top:20px;
+      left:30px;
+      align-items: center;overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+  }
+  
+  }
+  .button {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, skyblue,whitesmoke);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    top: 200px;
+    text-decoration: none;
+    left: 250px;
+    right: 100px;
+    
+  }
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .profile {
+  top: 40px;
+  right: 275px;
+  left: 275px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white ;
+  position: relative;
+
+}
+h6 {
+  
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* clean font */
+  font-size: 30px;           /* readable size */
+  line-height: 1.6;          /* spacing between lines */
+  color: #333333;            /* soft dark color, easy on eyes */
+  margin: 0 0 16px 0;        /* bottom spacing */
+  letter-spacing: 0.5px;     /* subtle spacing */
+  text-align: justify;       /* neat alignment */
+  left: 4%;
+  right:4%;
+  position: relative;
+  top: 70px;
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+ }
+ /* glass card */
+ .glass-card {
+    align-items: center;
+    position: relative;
+    left:35px;
+    top: 200px;
+    bottom: -20px;
+    background-color: rgb(246, 249, 249);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite ease-in-out;
+    background: none;
+}
+.glass-card h4 {
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.glass-card .subtitle {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* booking form */
+.container { 
+    left:5px;
+    top: 250px;
+    max-width:400px;
+    position: relative;
+  margin: 20px auto; 
+  background: none; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px #aaa; 
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+  overflow: auto;
+  font-size: 18px;
+  box-sizing: 70%; 
+}
+
+input, select, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  font-size: 30px;
+  background: none;
+  color: black
+
+  
+}
+
+textarea { height: 30px; }
+
+.form-btn { 
+  position: relative;
+  align-items: center;
+ 
+  
+}
+button {
+  color: #333333;
+  background: none;
+  font-size: 20px;
+}
+
+button:hover { 
+  background: none; 
+}
+
+
+.review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid bla;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: black;
+    overflow: scroll;
+    left: 10px;
+  }
+  .review-form button {
+    width: 90%;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    position:inherit;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    color:black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  footer {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, green,red, );  
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  overflow: visible;
+  top: 450px;
+  right:2%;
+ }
+
+    /* 1200px above */
+ @media screen and (min-width:1200px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+      color:#333333;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      left:50px;
+      top: 80px;
+      text-transform: capitalize;
+      font-size:90px;
+      overflow-wrap: break-word;
+      z-index: 1;
+      max-width: 90%;
+      word-wrap: break-word;
+    }
+    h2{
+      color:#181313;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 40px;
+      position: relative;
+      top:100px;
+      left:30px;
+      align-items: center;overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+
+    }
+    p{
+      color:#181313;
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      font-size: 20px;
+      position: relative;
+      top:20px;
+      left:30px;
+      align-items: center;
+  z-index: 1;
+  max-width: 90%;
+  
+  }
+  
+  }
+  .button {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, skyblue,whitesmoke);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    top: 200px;
+    text-decoration: none;
+    left: 650px;
+    right: 100px;
+    
+  }
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .profile {
+  top: 40px;
+  right: 275px;
+  left: 575px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white ;
+  position: relative;
+
+}
+h6 {
+  
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* clean font */
+  font-size: 30px;           /* readable size */
+  line-height: 1.6;          /* spacing between lines */
+  color: #333333;            /* soft dark color, easy on eyes */
+  margin: 0 0 16px 0;        /* bottom spacing */
+  letter-spacing: 0.5px;     /* subtle spacing */
+  text-align: justify;       /* neat alignment */
+  left: 4%;
+  right:4%;
+  position: relative;
+  top: 70px;
+  overflow-wrap: break-word;
+  z-index: 1;
+  max-width: 90%;
+  word-wrap: break-word;
+ }
+ /* glass card */
+ .glass-card {
+    align-items: center;
+    position: relative;
+    left:350px;
+    top: 100px;
+    bottom: -20px;
+    background-color: rgb(246, 249, 249);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite ease-in-out;
+    background: none;
+}
+.glass-card h4 {
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.glass-card .subtitle {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* booking form */
+.container { 
+    left:5px;
+    top: 60px;
+    max-width:700px;
+    position: relative;
+  margin: 20px auto; 
+  background: none; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 30px #aaa; 
+  overflow-wrap: break-word;
+  z-index: 1;
+  overflow: auto;
+  font-size: 18px;
+  box-sizing: 70%; 
+}
+
+input, select, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+  font-size: 30px;
+  background: none;
+  color:#333333;
+
+  
+}
+
+textarea { height: 30px; }
+
+.form-btn { 
+  position: relative;
+  align-items: center;
+ 
+  
+}
+button {
+  color: #333333;
+  background: none;
+  font-size: 20px;
+}
+
+button:hover { 
+  background: none; 
+}
+
+
+.review-form input[type="text"],
+  .review-form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid bla;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: black;
+    overflow: scroll;
+    left: 10px;
+  }
+  .review-form button {
+    width: 90%;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    position:inherit;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    color:black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  footer {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, green,red, );  
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  overflow: visible;
+  top: 450px;
+  right:2%;
+ }
