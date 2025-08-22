@@ -1,6 +1,6 @@
 /* Mobile (≤480px) */
 @media (max-width: 480px) {
-  body { background: #d0f0ff; font-size: 14px; overflow-x: hidden; overflow-y: hidden; }
+  body { background: #d0f0ff; font-size: 14px; overflow-x: hidden; overflow-y: scroll;  }
   h1 { font-size: 40px; text-align: center; text-transform: capitalize;top:70px;}
   h2 { font-size: 20px; text-align: center; text-transform: capitalize; font-family: 'Times New Roman', Times, serif;}
   h3 {font-size:15px;font-family: 'Times New Roman', Times, serif;position: relative;margin-top:10px;display: flexbox;text-align: justify;right: 10px;
@@ -33,7 +33,7 @@
 
 /* Tablet (481px – 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-  body { font-size: 16px; overflow: hidden;}
+  body { font-size: 16px; overflow-x: hidden;overflow-y: scroll;}
   h1 { font-size: 40px; text-align: center; text-transform: capitalize;margin-top: 30px;font-family: 'Times New Roman', Times, serif;max-width: 90%;margin-left: 30px;}
   h2 {font-size: 30px; max-width: 90%; text-align: center;font-family: 'Times New Roman', Times, serif;margin-left: 30px;}
   h3 {font-size:20px;font-family: 'Times New Roman', Times, serif;position: relative;margin-top:30px;display: flexbox;text-align: justify;right: 10px;
@@ -62,7 +62,7 @@
 
 /* Laptop (769px – 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  body { font-size: 18px; overflow-y: scroll;overflow-x:hidden;}
+  body { font-size: 18px; overflow-y: scroll;}
   h1 { font-size: 90px; text-align: center; font-family: 'Times New Roman', Times, serif; max-width: 90%;text-transform: capitalize;
   margin-top: 100px; }
   h2 {font-size: 30px; max-width: 90%; text-align: center;font-family: 'Times New Roman', Times, serif;margin-left: 30px;}
@@ -91,7 +91,7 @@
 
 /* Desktop (≥1025px) */
 @media (min-width: 1025px) {
-  body { font-size: 20px; overflow-y: scroll;overflow-x: hidden; font-family: 'Times New Roman', Times, serif;}
+  body { font-size: 20px; overflow-x: hidden; overflow-y: auto; font-family: 'Times New Roman', Times, serif;}
   h1 { font-size: 80px; align-items: center; margin-top: 80px;max-width: 90%; text-transform: capitalize; margin-left: 80px; }
   h2 {font-size: 50px; max-width: 90%; text-align: center;font-family: 'Times New Roman', Times, serif;margin-left: 30px;}
   h3 {font-size:40px;font-family: 'Times New Roman', Times, serif;position: relative;margin-top:50px;display: flexbox;text-align: justify;right: 10px;
