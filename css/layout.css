@@ -7,8 +7,8 @@ body {background: #d0f0ff;height: 100%;}
 
 
 .nav-link:hover{background-color: gray;cursor: pointer;border-radius: 10%;}
-.navbar-toggler {top: 0px;}
-.navbar-toggler:hover{background-color:#333333;}
+.navbar-toggler {left: 10px;}
+.navbar-toggler:hover{background-color:green;}
 .collaps.enavbar-collapse {position: absolute;justify-content: center;}
 .logo {height: 50px;width: 50px;left:10px;border-radius: 70%;}
 
@@ -52,7 +52,7 @@ body {background: #d0f0ff;height: 100%;}
     margin-bottom: 5px;color: black;}
   .review-form input[type="text"],
   .review-form textarea {width: 100%;padding: 10px;border: 1px solid bla;border-radius: 10px;
-    ont-size: 0.9rem;
+    font-size: 0.9rem;
     color: black;}
   .review-form textarea {resize: vertical;}
   .review-form input::placeholder,
@@ -131,7 +131,7 @@ button:hover {
   /* container colors confirm box */
 
 .confirm-name { color:#333333; position: relative;top: 10px;}
-.confirm-age { color: #333333; }
+.confirm-age { color: #333333;}
 .confirm-gender { color: #333333; }
 .confirm-email { color:#333333; }
 .confirm-phone { color: #333333; }
@@ -150,4 +150,6 @@ button:hover {
     
      /*responsive screen */
 
-
+.profile-coniner {
+  display: flex;
+}
